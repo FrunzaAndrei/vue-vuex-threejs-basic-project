@@ -1,5 +1,19 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+   <Configurator/>
   </div>
 </template>
+
+<script>
+import Configurator from "../components/Configurator"
+export default {
+   name: 'about',
+   components:{
+     Configurator
+   }
+}
+</script>
+
+<style scoped>
+
+</style>
