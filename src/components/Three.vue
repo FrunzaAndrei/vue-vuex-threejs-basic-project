@@ -33,6 +33,14 @@ export default {
         Plane: {
           geometry: THREE.PlaneGeometry,
           props: [2, 2, 32]
+        },
+        Cone:{
+          geometry: THREE.ConeBufferGeometry,
+          props: [1, 3, 8]
+        },
+        Ring:{
+          geometry: THREE.RingGeometry,
+          props: [1, 2, 10]
         }
       }
     };

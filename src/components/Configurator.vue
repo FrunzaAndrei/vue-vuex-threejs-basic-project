@@ -21,7 +21,9 @@
                    <md-card-content>
                        <md-radio v-model="getToAllProperties.shape" value="Cube" class="md-primary">Cube</md-radio>
                        <md-radio v-model="getToAllProperties.shape" value="Sphere" class="md-primary">Sphere</md-radio>
+                       <md-radio v-model="getToAllProperties.shape" value="Cone" class="md-primary">Cone</md-radio>
                        <md-radio v-model="getToAllProperties.shape" value="Plane" class="md-primary">Plane</md-radio>
+                       <md-radio v-model="getToAllProperties.shape" value="Ring" class="md-primary">Ring</md-radio>
                    </md-card-content>
                </md-card>
            </div>
@@ -34,7 +36,9 @@
                    </md-card-header>
                    <md-card-content>
                        <md-radio v-model="getToAllProperties.number" value="10" class="md-primary">10</md-radio>
-                       <md-radio v-model="getToAllProperties.number" value="300" class="md-primary">300</md-radio>
+                       <md-radio v-model="getToAllProperties.number" value="250" class="md-primary">250</md-radio>
+                       <md-radio v-model="getToAllProperties.number" value="500" class="md-primary">500</md-radio>
+                       <md-radio v-model="getToAllProperties.number" value="750" class="md-primary">750</md-radio>
                        <md-radio v-model="getToAllProperties.number" value="1000" class="md-primary">1000</md-radio>
                    </md-card-content>
                </md-card>
@@ -50,6 +54,8 @@
                        <md-radio v-model="getToAllProperties.scale" value="1" class="md-primary">x1</md-radio>
                        <md-radio v-model="getToAllProperties.scale" value="2" class="md-primary">x2</md-radio>
                        <md-radio v-model="getToAllProperties.scale" value="3" class="md-primary">x3</md-radio>
+                       <md-radio v-model="getToAllProperties.scale" value="4" class="md-primary">x4</md-radio>
+                       <md-radio v-model="getToAllProperties.scale" value="5" class="md-primary">x5</md-radio>
                    </md-card-content>
                </md-card>
            </div>
@@ -63,7 +69,9 @@
                    <md-card-content>
                        <md-radio v-model="getToAllProperties.speed" value="0.025" class="md-primary">x1</md-radio>
                        <md-radio v-model="getToAllProperties.speed" value="0.05" class="md-primary">x2</md-radio>
-                       <md-radio v-model="getToAllProperties.speed" value="0.75" class="md-primary">x3</md-radio>
+                       <md-radio v-model="getToAllProperties.speed" value="0.1" class="md-primary">x3</md-radio>
+                       <md-radio v-model="getToAllProperties.speed" value="0.2" class="md-primary">x4</md-radio>
+                       <md-radio v-model="getToAllProperties.speed" value="0.3" class="md-primary">x5</md-radio>
                    </md-card-content>
                </md-card>
            </div>
